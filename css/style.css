@@ -1,0 +1,41 @@
+@charset 'UTF-8';
+body {
+	font-size: 14px;
+}
+#head {
+	position: relative;
+}
+#logo {
+	max-width: 100%;
+	position: relative;	
+}
+#navigation {
+	max-width: 100%;
+	font-size: 5px;
+}
+.ui-btn-text {
+	font-size: 10px;
+}
+#banner-home { 
+    max-width: 100%;
+    position: relative;
+}
+.ui-body {
+	/*max-width: 50%;*/
+	width: auto;
+	max-width:50%;
+	float:left;
+	color: #0099cc;
+	/*position: relative;*/
+}
+#homepic {
+	position:relative;
+	width: auto;
+	max-width: 50%;
+	padding-top: 10px;
+	
+	float: left;
+}
+#mcontent {
+	clear: both;
+}
