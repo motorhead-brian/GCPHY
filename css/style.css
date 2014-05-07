@@ -1,7 +1,13 @@
 @charset 'UTF-8';
+
 body {
-	font-size: 14px;
+	font-size: 12px;
 }
+.title {
+	font-size: 14px;
+	color: #0099cc;
+}
+
 #head {
 	position: relative;
 }
@@ -16,26 +22,70 @@ body {
 .ui-btn-text {
 	font-size: 10px;
 }
+.ui-btn-active {
+  	background-image: -webkit-gradient(linear,left top,left bottom,from( #0099cc ),to( #0099cc ));
+  	background-image: -webkit-linear-gradient( #0099cc,#0099cc );
+  	background-image: -moz-linear-gradient( #0099cc,#0099cc );
+  	background-image: -ms-linear-gradient( #0099cc,#0099cc );
+  	background-image: -o-linear-gradient( #0099cc,#0099cc );
+  	background-image: linear-gradient( #0099cc,#0099cc );
+}
+span.ui-btn-active span.ui-btn-hover-a {
+	background-color: #ffffff;
+}
+/* to change ui body color */
+.ui-page-active {
+	background-image: -webkit-gradient(linear,left top,left bottom,from( #000000 ),to( #000000 ));
+  	background-image: -webkit-linear-gradient( #000000,#000000 );
+  	background-image: -moz-linear-gradient( #000000,#000000 );
+  	background-image: -ms-linear-gradient( #000000,#000000 );
+  	background-image: -o-linear-gradient( #000000,#000000 );
+  	background-image: linear-gradient( #000000,#00000 );
+}
 #banner-home { 
     max-width: 100%;
     position: relative;
 }
+
 .ui-body {
-	/*max-width: 50%;*/
 	width: auto;
 	max-width:50%;
 	float:left;
-	color: #0099cc;
+	/*color: #251e60;*/
+	color: #ffffff;
+	text-shadow: none;
 	/*position: relative;*/
 }
+
+.ui-body-links {
+	/*width: auto;
+	max-width:50%;
+	float:left;
+	/*color: #251e60;*/
+	color: #ffffff;
+	text-shadow: none;
+	padding-left: 15px;
+	/*position: relative;*/
+}
+
 #homepic {
 	position:relative;
 	width: auto;
 	max-width: 50%;
 	padding-top: 10px;
-	
 	float: left;
 }
+
 #mcontent {
 	clear: both;
+	margin-top: -5px;
+	background-color: #000000;
+	color: #ffffff;
+	text-shadow: none;
+}
+.indent {
+	text-indent: 30px;
+}
+.color {
+	color: #0099cc;
 }
