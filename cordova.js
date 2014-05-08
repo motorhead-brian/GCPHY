@@ -20,10 +20,6 @@
  specific language governing permissions and limitations
  under the License.
  */
-$(document).bind("mobileinit", function(){
-  $.mobile.defaultPageTransition="none"
-});
-
 
 ;(function() {
 
