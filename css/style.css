@@ -2,6 +2,7 @@
 
 body {
 	font-size: 12px;
+	text-shadow: none;
 }
 .title {
 	font-size: 14px;
@@ -54,6 +55,18 @@ span.ui-btn-active span.ui-btn-hover-a {
 	/*color: #251e60;*/
 	color: #ffffff;
 	text-shadow: none;
+	/*position: relative;*/
+}
+
+.ui-body-contact {
+	/*width: auto;
+	max-width:50%;
+	float:left;
+	/*color: #251e60;*/
+	color: #ffffff;
+	text-shadow: none;
+	padding-left: 15px;
+	background-color: #000000;
 	/*position: relative;*/
 }
 
