@@ -3,6 +3,7 @@
 body {
 	font-size: 12px;
 	text-shadow: none;
+	background-color: #000000;
 }
 .title {
 	font-size: 14px;
@@ -14,8 +15,9 @@ body {
 }
 #logo {
 	max-width: 100%;
-	position: relative;	
+	position: relative;
 }
+
 #navigation {
 	max-width: 100%;
 	font-size: 5px;
@@ -50,35 +52,22 @@ span.ui-btn-active span.ui-btn-hover-a {
 
 .ui-body {
 	width: auto;
-	max-width:50%;
-	float:left;
-	/*color: #251e60;*/
 	color: #ffffff;
 	text-shadow: none;
-	/*position: relative;*/
+	background-color: #000000;
 }
 
 .ui-body-contact {
-	/*width: auto;
-	max-width:50%;
-	float:left;
-	/*color: #251e60;*/
 	color: #ffffff;
 	text-shadow: none;
 	padding-left: 15px;
 	background-color: #000000;
-	/*position: relative;*/
 }
 
 .ui-body-links {
-	/*width: auto;
-	max-width:50%;
-	float:left;
-	/*color: #251e60;*/
 	color: #ffffff;
 	text-shadow: none;
 	padding-left: 15px;
-	/*position: relative;*/
 }
 
 #homepic {
